@@ -1,8 +1,6 @@
 # Create a function called main.
 # Create function arguments a and b.
 # Returns the sum of a and b.
-def main():
-    a = 3
-    b = 2
+def main(a, b):
     return a + b
-print(main())
+print(main(3, 2))
