@@ -3,8 +3,8 @@
 # Assign the value pi to the variable "a" and return.
 from cmath import pi
 
-def  main():
+def  main(a):
     a = pi
-    a = "pi"
     return a
-print(main())
+print(main(8))
+
