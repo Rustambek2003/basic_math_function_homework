@@ -5,8 +5,7 @@
 
 from math import pi
 
-def main():
+def main(a):
     a = pi
-    a = round(a, 2)
-    return a
-print(main())
+    return round(a, 2)
+print(main(8))
